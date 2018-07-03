@@ -1,0 +1,15 @@
+apt install --yes git
+apt install --yes curl
+apt install --yes emacs
+apt install --yes mercurial
+apt install --yes build-essential
+apt install --yes python-setuptools
+apt install --yes python-virtualenv
+apt install --yes python-dev
+apt install --yes python-pip
+apt install --yes python-numpy
+apt install --yes python-scipy
+apt install --yes python-matplotlib
+apt install --yes p7zip
+
+apt install linux-headers-$(uname -r)
