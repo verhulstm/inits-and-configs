@@ -1,2 +1,2 @@
-Michael Verhulst's Init Script For New Linux Workstations.
+Michael Verhulst's Init Scripts For New Linux Workstations.
 ===================================
