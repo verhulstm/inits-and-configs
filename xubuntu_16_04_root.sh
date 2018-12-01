@@ -11,6 +11,7 @@ apt install -y redir
 
 apt install -y build-essential
 apt install -y linux-headers-$(uname -r)
+apt install -y dkms
 
 apt install -y imagemagick
 apt install -y libfreetype6
