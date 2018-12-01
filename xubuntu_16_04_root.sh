@@ -20,7 +20,7 @@ apt install -y libappindicator1
 apt install -y libindicator7
 
 apt install -y python-dev
-apt isntall -y libssl-dev
+apt install -y libssl-dev
 apt install -y libxft-dev
 apt install -y libpq-dev
 apt install -y liblzma-dev
