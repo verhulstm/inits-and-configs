@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/buildpack-deps:18.04
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install root deps
+          command: |
+            sudo bash ubuntu_mate_18_04_root.sh
+      - run:
+          name: Install non-root deps
+          command: |
+            bash ubuntu_mate_18_04_nonroot.sh
