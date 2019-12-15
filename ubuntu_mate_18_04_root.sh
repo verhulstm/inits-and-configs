@@ -71,8 +71,6 @@ apt install -y cgroup-lite
 apt install -y jupyter-notebook
 apt install -y tk8.5
 
-apt install -y ttf-mscorefonts-installer
-
 apt install -y nano
 apt install -y emacs
 apt install -y geany
